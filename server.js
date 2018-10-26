@@ -7,7 +7,7 @@ var publicPath = path.join(__dirname, "client/public");
 
 // Initializes Express.js server and defines port
 var app = express();
-var port = process.env.PORT || 8080;
+var port = process.env.PORT || 3000;
 
 // Initializes Sequelize models
 var db = require("./models");
